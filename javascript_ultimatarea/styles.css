@@ -1,0 +1,95 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(0, 16, 230);
+    background: linear-gradient(180deg, rgba(0, 16, 230, 0.9472163865546218) 0%, rgba(241, 0, 0, 0.9023984593837535) 58%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    margin-top: 36px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#carForm label {
+    display: block;
+    margin-top: 20px;
+    color: blue;
+}
+
+#carForm input[type="text"],
+#carForm input[type="date"],
+#carForm input[type="number"] {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+
+#carForm button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#carList {
+    margin-top: 20px;
+}
+
+.carItem {
+    margin-top: 10px;
+    color: blue;
+}
+
+.carItem strong {
+    color: red;
+}
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
